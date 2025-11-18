@@ -51,7 +51,7 @@ python manage.py runserver
 
 ## You will be taken to this screen
 ![successregister](https://github.com/user-attachments/assets/810740e2-f733-4d0c-82a6-d400352c9d69)
-## 2 Add thought
+## 2. Add thought
 ## Click on "Add one now" to add a thought
 ![successregister](https://github.com/user-attachments/assets/810740e2-f733-4d0c-82a6-d400352c9d69)
 
