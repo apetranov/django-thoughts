@@ -6,11 +6,15 @@
 ```bash
 git clone https://github.com/apetranov/django-thoughts.git
 ```
-## Step 2: create virtual environment
+## Step 2: enter folder
+```bash
+cd django-thoughts
+```
+## Step 3: create virtual environment
 ```bash
 python -m venv venv
 ```
-## Step 3: activate virtual environment
+## Step 4: activate virtual environment
 ### Windows
 ```bash
 venv\Scripts\activate
@@ -19,25 +23,25 @@ venv\Scripts\activate
 ```bash
 source venv/bin/activate
 ```
-## Step 4: install dependencies
+## Step 5: install dependencies
 ```bash
 pip install -r requirements.txt
 ```
-## Step 5: set up SECRET_KEY
+## Step 6: set up SECRET_KEY
 Rename ".env.example" to ".env" and pick a value for your secret key.
 You can create a secret key with the following command:
 ```bash
 python -c "from django.core.management.utils import get_random_secret_key; print(get_random_secret_key())"
 ```
-## Step 6: apply database migrations
+## Step 7: apply database migrations
 ```bash
 python manage.py migrate
 ```
-## Step 7: run development server
+## Step 8: run development server
 ```bash
 python manage.py migrate
 ```
-## Step 8: open this url in browser and enjoy :)
+## Step 9: open this url in browser and enjoy :)
 ```bash
 127.0.0.1:8000
 ```
