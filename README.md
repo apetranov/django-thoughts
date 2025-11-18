@@ -54,7 +54,6 @@ python manage.py runserver
 ## 2. Add thought
 ## Click on "Add one now" to add a thought
 ![successregister](https://github.com/user-attachments/assets/810740e2-f733-4d0c-82a6-d400352c9d69)
-## 3
-
+## 3. On this screen type your thought in the "What is on your mind today?" field. Also choose a mood and optionally type a tag
 <img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/cbf5c699-43bb-4d6f-9ade-446ebbdc19eb" />
 
