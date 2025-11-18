@@ -1,6 +1,6 @@
 # Django thoughts 💭🐍
 
-# How to run locally:
+# How to run locally
 
 ## Step 1: clone repo
 ```bash
@@ -45,3 +45,8 @@ python manage.py runserver
 ```bash
 127.0.0.1:8000
 ```
+# How to use the app
+## 1. Click the register option on the navbar and register yourself
+![register](https://github.com/user-attachments/assets/bcc96d37-2026-4bd4-960e-fdb1850915b1)
+
+
