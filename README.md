@@ -6,3 +6,7 @@
 ```bash
 git clone https://github.com/apetranov/django-thoughts.git
 ```
+## Step 2: create virtual environment
+```bash
+python -m venv venv
+```
