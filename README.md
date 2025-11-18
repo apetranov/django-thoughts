@@ -10,3 +10,12 @@ git clone https://github.com/apetranov/django-thoughts.git
 ```bash
 python -m venv venv
 ```
+## Step 3: activate virtual environment
+### Windows
+```bash
+venv\Scripts\activate
+```
+### MacOS/Linux
+```bash
+source venv/bin/activate
+```
