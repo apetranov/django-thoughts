@@ -1,0 +1,39 @@
+{% extends "thoughts/base.html" %}
+
+{% block title %}Add thought{% endblock %}
+
+{% block body %}
+<div class="flex justify-center items-center h-screen">
+
+    <form method="POST" class="flex gap-6 flex-col justify-center items-center w-[70%] md:w-[50%]">
+        {% csrf_token %}
+        <h1 class="text-3xl font-bold text-center">Create a Thought</h1>
+
+        <textarea 
+            name="text"
+            class="p-5 outline outline-1 w-full h-40"
+            placeholder="What is on your mind today?"
+        ></textarea>
+
+        <select name="mood" class="p-2 outline outline-1 w-full">
+            <option value="😊">Happy</option>
+            <option value="😐">Neutral</option>
+            <option value="😔">Sad</option>
+            <option value="😤">Stressed</option>
+            <option value="🤩">Excited</option>
+        </select>
+
+        <input
+            name="tag"
+            class="p-2 outline outline-1 w-full"
+            placeholder="Optional tag"
+        />
+
+        <button 
+            type="submit"
+            class="bg-blue-500 text-white px-5 py-2 rounded-full hover:bg-blue-400 hover:cursor-pointer"
+        >Save Thought</button>
+    </form>
+
+</div>
+{% endblock %}

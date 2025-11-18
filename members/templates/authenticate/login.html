@@ -1,0 +1,31 @@
+{% extends "thoughts/base.html" %}
+
+{% block title %}
+    Login
+{% endblock %}
+
+{% block body %}
+<div class=" flex gap-5 flex-col justify-center items-center h-screen">
+    
+
+    <form action="" class="p-5 outline outline-1 shadow-2xl flex flex-col justify-center items-center gap-5" method="POST">
+        {% csrf_token %}
+        <h1 class="text-2xl">Login</h1>
+        <div class="flex flex-col">
+            <label for="">Username</label>
+            <input name="username" class="outline outline-1" type="text">
+        </div>
+        
+
+        <div class="flex flex-col">
+            <label for="">Password</label>
+            <input name="password" class="outline outline-1" type="password">
+        </div>
+
+
+        <input class="hover:cursor-pointer bg-blue-500 text-center text-white px-5 py-2 rounded-full hover:bg-blue-400" type="submit">
+    </form>
+</div>
+    
+    
+{% endblock %}

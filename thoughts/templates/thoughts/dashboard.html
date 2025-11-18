@@ -1,0 +1,29 @@
+{% extends "thoughts/base.html" %}
+{% block title %}Dashboard{% endblock %}
+{% block body %}
+<div class="max-w-2xl text-center md:text-left mx-auto mt-10">
+  <h2 class="text-2xl font-bold mb-4">📝 Your Thought Today</h2>
+
+  {% if todays_thought %}
+    <div class="p-4 border rounded shadow-sm mb-4">
+      <p>{{ todays_thought.text }}</p>
+      <p class="text-gray-500 text-sm mt-1">
+        Mood: {{ todays_thought.mood }}
+        {% if todays_thought.tag %}| Tag: {{ todays_thought.tag }}{% endif %}
+      </p>
+    </div>
+
+    {% if quote %}
+      <div class="p-4 border-l-4 border-blue-500 bg-blue-50 rounded">
+        <p class="italic text-gray-700">“{{ quote.text }}”</p>
+        <p class="text-gray-500 text-right">— {{ quote.author }}</p>
+      </div>
+    {% endif %}
+
+  {% else %}
+    <p class="text-gray-500">
+      You haven’t posted a thought today yet. <br><a href="{% url 'add_thought' %}" class="text-blue-500 hover:underline">Add one now</a>.
+    </p>
+  {% endif %}
+</div>
+{% endblock %}
