@@ -39,7 +39,7 @@ python manage.py migrate
 ```
 ## Step 8: run development server
 ```bash
-python manage.py migrate
+python manage.py runserver
 ```
 ## Step 9: open this url in browser and enjoy :)
 ```bash
