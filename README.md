@@ -56,4 +56,6 @@ python manage.py runserver
 ![successregister](https://github.com/user-attachments/assets/810740e2-f733-4d0c-82a6-d400352c9d69)
 ## 3. On this screen type your thought in the "What is on your mind today?" field. Also choose a mood and optionally type a tag
 <img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/cbf5c699-43bb-4d6f-9ade-446ebbdc19eb" />
+## 4. You get redirected to this page where your thought was added and you also see a quote picked based on the mood which you chose
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/70e2502d-db05-47dd-a216-a1077355d1c4" />
 
