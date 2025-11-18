@@ -29,3 +29,15 @@ You can create a secret key with the following command:
 ```bash
 python -c "from django.core.management.utils import get_random_secret_key; print(get_random_secret_key())"
 ```
+## Step 6: apply database migrations
+```bash
+python manage.py migrate
+```
+## Step 7: run development server
+```bash
+python manage.py migrate
+```
+## Step 8: open this url in browser and enjoy :)
+```bash
+127.0.0.1:8000
+```
