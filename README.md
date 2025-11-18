@@ -24,7 +24,7 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 ## Step 5: set up SECRET_KEY
-Change ".env.example" and rename to ".env" and pick a value for your secret key.
+Rename ".env.example" to ".env" and pick a value for your secret key.
 You can create a secret key with the following command:
 ```bash
 python -c "from django.core.management.utils import get_random_secret_key; print(get_random_secret_key())"
