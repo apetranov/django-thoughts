@@ -49,4 +49,8 @@ python manage.py runserver
 ## 1. Click the register option on the navbar and register yourself
 ![register](https://github.com/user-attachments/assets/bcc96d37-2026-4bd4-960e-fdb1850915b1)
 
+You will be taken to this screen
+![successregister](https://github.com/user-attachments/assets/810740e2-f733-4d0c-82a6-d400352c9d69)
+
+
 
